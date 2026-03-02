@@ -1,44 +1,46 @@
-# Vim Hands-On Tutorial (Learning Vi and Vims)
+# Vim Hands-On Tutorial Workshop
 
-![GitHub Repo stars](https://img.shields.io/github/stars/dofy/learn-vim)
-![GitHub](https://img.shields.io/github/license/dofy/learn-vim)
-![GitHub contributors](https://img.shields.io/github/contributors/dofy/learn-vim)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/dofy/learn-vim)
+![GitHub Repo stars](https://img.shields.io/github/stars/dofy/learn-vim)  
+![GitHub](https://img.shields.io/github/license/dofy/learn-vim)  
+![GitHub contributors](https://img.shields.io/github/contributors/dofy/learn-vim)  
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/dofy/learn-vim)  
 
-[🇺🇸 English](en/README.md) | [🇨🇳 简体中文](zh-CN/README.md)
+[View Chapters](chapters/README.md)
 
-## Intro
+---
 
-In my personal experience of learning Vim, it is very difficult to learn Vim by
-reading documentation or watching other people operate it. You have to be in the
-real world, in real scenarios, to familiarize yourself with the commands and
-master them.
+## Workshop Overview
 
-Therefore, to meet the needs of learning and operating at the same time, all the
-files in the project are in Markdown format, which can be read as an explanation
-document, and can also be opened in Vim. You can read it as an explanatory
-document, and you can also use Vim to open the files for actual operation (the
-latter is recommended).
+Learning Vim can be challenging by just reading documentation or watching videos. The best way to master Vim is through **hands-on experience** in realistic scenarios.
+
+This workshop uses Markdown-based files that serve dual purposes:
+
+1. **Instructional reading material**
+2. **Interactive exercises in Vim**
+
+You can read the files normally, or open them in Vim to practice commands in real time (recommended).
+
+---
 
 ## How to Use
 
-1. clone project to local
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/dofy/learn-vim.git
+git clone https://github.com/your-org/your-vim-workshop.git
 ```
 
-2. go to the project folder
-
+2. Navigate to the content folder:
 ```bash
-cd learn-vim/en
+  cd learn-vim/chapters
 ```
 
-3. open the file `chapter01.md` in Vim
-
+3. Open a chapter in Vim:
 ```bash
 vim chapter01.md
 ```
+
+
 
 ## Formatting Rules
 
@@ -66,7 +68,7 @@ symbols such as the current line)_
 > [!NOTE]
 >
 > If you already have your own `.vimrc` file (refer to
-> [Chapter 4](en/chapter04.md)) and have changed some of the defaults in it, it
+> [Chapter 4](chapters/chapter04.md)) and have changed some of the defaults in it, it
 > may cause some operations to not match the tutorial. In this case, you can run
 > `Vim` with the following command:
 >
@@ -81,23 +83,23 @@ symbols such as the current line)_
 
 ### Basic operations
 
-1. [Chapter 1: Cursor Movement](en/chapter01.md)
-1. [Chapter 2: Opening Files, Finding Content](en/chapter02.md)
-1. [Chapter 3: Modify and Save Documents](en/chapter03.md)
-1. [Chapter 4: Some Tips](en/chapter04.md)
-1. [Chapter 5: Split Screen and Tabs](en/chapter05.md)
-1. [Chapter 6: Block Operations](en/chapter06.md)
-1. [Chapter 7: Macros in Vim](en/chapter07.md)
+1. [Chapter 1: Cursor Movement](chapters/chapter01.md)
+1. [Chapter 2: Opening Files, Finding Content](chapters/chapter02.md)
+1. [Chapter 3: Modify and Save Documents](chapters/chapter03.md)
+1. [Chapter 4: Some Tips](chapters/chapter04.md)
+1. [Chapter 5: Split Screen and Tabs](chapters/chapter05.md)
+1. [Chapter 6: Block Operations](chapters/chapter06.md)
+1. [Chapter 7: Macros in Vim](chapters/chapter07.md)
 
 ### Additional content
 
-1. [Vim Modes](en/vim-modes.md)
-1. [Vim plugins](en/plugin.md)
-1. [Plugin Recommendations](en/plugins/index.md)
-   1. [NERDTree](en/plugins/nerdtree.md)
-   1. [EasyAlign](en/plugins/easyalign.md)
-   1. [Airline & Themes](en/plugins/airline.md)
-   1. [surround.vim](en/plugins/surround.md)
+1. [Vim Modes](chapters/vim-modes.md)
+1. [Vim plugins](chapters/plugin.md)
+1. [Plugin Recommendations](chapters/plugins/index.md)
+   1. [NERDTree](chapters/plugins/nerdtree.md)
+   1. [EasyAlign](chapters/plugins/easyalign.md)
+   1. [Airline & Themes](chapters/plugins/airline.md)
+   1. [surround.vim](chapters/plugins/surround.md)
 
 > [!NOTE]
 >
@@ -106,7 +108,7 @@ symbols such as the current line)_
 >   files
 > - You can always open the relevant chapter to view, and then use `:bp` to go
 >   back to the previous file (this command will (This command is covered in
->   [Chapter 2](en/chapter02.md)).
+>   [Chapter 2](chapters/chapter02.md)).
 > - You may get a file not saved error when you exit the tutorial with `:q` or
 >   `:qa`, try adding `!` to the end of the command!
 
@@ -139,10 +141,6 @@ symbols such as the current line)_
 
 > [![005][cheatsheets5]][cheatsheets5]
 
-## Star History
-
-[![Star History Chart][star-history-chart]][star-history]
-
 **Thanks again for your interest! If you love, please share. Love life, love
 VIM!**
 
@@ -159,9 +157,6 @@ VIM!**
 [cheatsheets1]: https://vim.rtorr.com/lang/zh_tw
 [cheatsheets2]: https://vimsheet.com/
 [cheatsheets3]: https://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png
-[cheatsheets4]: https://cdn.shopify.com/s/files/1/0165/4168/files/preview.png
-[cheatsheets5]:
-  https://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png
-[star-history]: https://star-history.com/#dofy/learn-vim&Date
-[star-history-chart]:
-  https://api.star-history.com/svg?repos=dofy/learn-vim&type=Date
+
+
+
